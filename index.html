@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTE PLAYFAIR DISPLAY -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SCRIPT PARA NAVEGADOR SEM JS-->
+    <script>
+      document.documentElement.className += " js";
+    </script>
+    <!-- ESTILO DA PÁGINA -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Animais Fantásticos</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- MENU -->
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">Empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a data-modal="abrir" href="login.html"> Login </a></li>
+        </ul>
+      </nav>
+
+      <!-- SEÇÃO DO SITE -->
+
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">ANIMAIS FANTÁSTICOS</h1>
+        <ul class="animais-lista" data-tab="menu">
+          <li>
+            <img src="img/imagem1.jpg" alt="raposa" />
+          </li>
+          <li>
+            <img src="img/imagem2.jpg" alt="esquilo" />
+          </li>
+          <li>
+            <img src="img/imagem3.jpg" alt="urso" />
+          </li>
+          <li>
+            <img src="img/imagem4.jpg" alt="lobo" />
+          </li>
+          <li>
+            <img src="img/imagem5.jpg" alt="macaco" />
+          </li>
+          <li>
+            <img src="img/imagem6.jpg" alt="leão" />
+          </li>
+        </ul>
+
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Raposa</h2>
+            <p>
+              As raposas são animais mamíferos e onívoros pertencentes à família
+              Canidae. São vulpídeos de porte médio, caracterizados por um
+              focinho comprido e uma cauda longa e peluda.
+            </p>
+            <p>
+              As raposas vivem em todos os continentes, exceto a Antártida. De longe, 
+              a espécie mais comum e difundida de raposa é a raposa vermelha (Vulpes vulpes) 
+              com cerca de 47 subespécies reconhecidas. A distribuição global das raposas, 
+              juntamente com sua ampla reputação de astúcia, contribuíram para sua proeminência 
+              na cultura popular e no folclore em muitas sociedades ao redor do mundo. A caça à 
+              raposa com matilhas de cães, há muito uma atividade estabelecida na Europa, 
+              especialmente nas Ilhas Britânicas, foi exportada por colonos europeus para várias 
+              partes do Novo Mundo.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Esquilo</h2>
+            <p>
+              Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, 
+              conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, 
+              caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru. Na Galiza e em algumas zonas de Portugal, 
+              também são conhecido por esquio.
+            </p>
+            <p>
+              O tamanho deste animal é variável, o menor deles é o esquilo pigmeu africano, 
+              que mede 13 cm de comprimento. Os maiores são os esquilos gigantes da Ásia, seu comprimento 
+              pode chegar a 90 cm. Este animal pode ser encontrado no mundo todo, menos na Austrália. Normalmente 
+              vivem em bosques de coníferas e caducifólias (plantas que em determinada época do ano perdem suas folhas). 
+              Embora existam espécies que podem ser encontradas no deserto ou na taiga. Para viver nestes lugares, 
+              os esquilos passaram por adaptações e desenvolveram estratégias que lhes permitem suportar as temperaturas 
+              extremas que caracterizam estas regiões.
+            </p>
+          
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Urso</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat qu.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat laborum enim voluptas.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Lobo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat unde ipsa aliquam dolore? Mollitia
+              repellat quaerat alias laborum enim voluptas.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni do
+              repellat possimus iste unde ipsa aliquam dolore? Mollitia repellat
+              quaerat alias laborum enim voluptas.
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Macaco</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat quaerat alias laborum enim voluptas.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat quaerat alias laborum enim voluptas.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Leão</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat quaerat alias laborum enim voluptas.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              dolorem voluptatum repellat possimus iste unde ipsa aliquam
+              dolore? Mollitia repellat quaerat alias laborum enim voluptas.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+          <dt>Qual a diferença?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+
+          <dt>Como proteger?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid">
+          <div class="numero-animal">
+            <h3>Lobos</h3>
+            <span data-numero> 4876</span>
+          </div>
+          <div class="numero-animal">
+            <h3>Raposas</h3>
+            <span data-numero> 5376</span>
+          </div>
+          <div class="numero-animal">
+            <h3>Esquilos</h3>
+            <span data-numero> 876</span>
+          </div>
+          <div class="numero-animal">
+            <h3>Ursos</h3>
+            <span data-numero> 2876</span>
+          </div>
+      </section>
+
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa" data-tooltip aria-label='Endereço próximo ao estacionamento.'>
+          <img src="img/mapa.png" alt="mapa" />
+        </div>
+        <ul class="dados">
+          <li>contato@origamid.com</li>
+          <li>+55 (21) 99999-9999</li>
+          <li>Rua do Conde, nº 21</li>
+          <li>Brasilia - DF</li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>Todos os direitos reservados.</p>
+      </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button data-modal="fechar" class="fechar">X</button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="password" id="password" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
