@@ -280,6 +280,7 @@ body {
   animation: slideDown 0.5s forwards;
 }
 
+
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -299,4 +300,11 @@ body {
 .js [data-anime="scroll"].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+.btc-preco {
+  background: #3F4;
+  padding: .2rem .5rem;
+  font-weight: bold;
+  border-radius: 2px;
 }
